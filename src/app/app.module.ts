@@ -38,7 +38,7 @@ import { LoginComponent } from './login/login.component';
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
-    AngularFireAuthModule,
+    AngularFireDatabaseModule,
     NgbModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
