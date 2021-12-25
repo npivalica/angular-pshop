@@ -14,6 +14,17 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+## Firebase
+
+`firebase init
+? What do you want to use as your public directory? dist/pshop
+? Configure as a single-page app (rewrite all urls to /index.html)? No
+? Set up automatic builds and deploys with GitHub? No
++  Wrote dist/pshop/404.html
+? File dist/pshop/index.html already exists. Overwrite? No
+firebase deploy --only hosting
+`
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
