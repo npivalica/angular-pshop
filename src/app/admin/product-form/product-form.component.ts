@@ -1,10 +1,16 @@
+// export interface Product {
+//   title: string,
+//   price: number,
+//   category: string,
+//   imageUrl: string
+// }
+
+
 import { ProductServiceService } from './../../product-service.service';
 import { CategoryService } from './../../category.service';
-import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
-import { AngularFireAction, AngularFireObject, AngularFireList } from '@angular/fire/compat/database';
-import * as firebase from 'firebase/app'
-import { Router } from '@angular/router';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-product-form',
@@ -13,12 +19,17 @@ import { Router } from '@angular/router';
 })
 export class ProductFormComponent implements OnInit {
   public categories$ : any;
+  product: any;
 
   constructor(
+    private route: ActivatedRoute,
     private router: Router,
     private categoryService: CategoryService,
     private productService: ProductServiceService) {
    this.categories$= this.categoryService.getCategories();
+
+   let id =this.route.snapshot.paramMap.get('id');
+   if (id) this.productService.getProduct(id).valueChanges().subscribe(p => this.product = p);
   }
 
   save(product: any) {
