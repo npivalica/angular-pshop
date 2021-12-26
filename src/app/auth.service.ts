@@ -4,7 +4,6 @@ import { AngularFireAuth } from '@angular/fire/compat/auth';
 import { Injectable } from '@angular/core';
 import * as firebase from 'firebase/auth';
 import { ActivatedRoute } from '@angular/router';
-import { AppUser } from './models/app-user';
 import { switchMap, map } from 'rxjs/operators';
 
 
