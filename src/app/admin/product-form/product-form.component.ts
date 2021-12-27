@@ -19,7 +19,7 @@ import { Subscription } from 'rxjs';
 })
 export class ProductFormComponent implements OnInit {
   public categories$ : any;
-  product: any;
+  public product: any;
 
   constructor(
     private route: ActivatedRoute,
