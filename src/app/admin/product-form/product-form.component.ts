@@ -26,9 +26,9 @@ export class ProductFormComponent implements OnInit {
     private router: Router,
     private categoryService: CategoryService,
     private productService: ProductServiceService) {
-   this.categories$= this.categoryService.getCategories();
+   this.categories$= this.categoryService.getAll();
 
-   let id =this.route.snapshot.paramMap.get('id');
+   let id= this.route.snapshot.paramMap.get('id'); //I don't get why it's undefined
    if (id) this.productService.getProduct(id).valueChanges().subscribe(p => this.product = p);
   }
 
