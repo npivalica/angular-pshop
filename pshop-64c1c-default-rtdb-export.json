@@ -1,0 +1,86 @@
+{
+  "categories" : {
+    "flowers" : {
+      "name" : "Flowers"
+    },
+    "grass" : {
+      "name" : "Grass"
+    },
+    "indoor" : {
+      "name" : "Indoor Plants"
+    },
+    "palms" : {
+      "name" : "Palms"
+    },
+    "trees" : {
+      "name" : "Trees"
+    }
+  },
+  "products" : {
+    "-Mrs2rFi8Yx4pn8TWHZv" : {
+      "category" : "indoor",
+      "imageUrl" : "https://images.unsplash.com/photo-1596547609713-821db6524310?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
+      "price" : 10,
+      "title" : "Ficus"
+    },
+    "-MrxMSJq9t4tPPYGBUrB" : {
+      "category" : "undefined",
+      "imageUrl" : "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=948&q=80",
+      "price" : 12,
+      "title" : "Cactus"
+    },
+    "-Mrxc4-C-FtOjXv12nGT" : {
+      "category" : "undefined",
+      "imageUrl" : "https://images.unsplash.com/photo-1576637057869-339845cae1ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=912&q=80",
+      "price" : 4,
+      "title" : "Carnation"
+    },
+    "-MrxcXsrNbWUUMdAH2mF" : {
+      "category" : "undefined",
+      "imageUrl" : "https://images.unsplash.com/photo-1594480018101-7da7e7c979f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      "price" : 23,
+      "title" : "Carex 'Ice Dance'"
+    },
+    "-MrxcwBals-3ogjQl2UD" : {
+      "category" : "undefined",
+      "imageUrl" : "https://images.unsplash.com/photo-1595609169861-8eedf5d26662?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=930&q=80",
+      "price" : 21,
+      "title" : "African Violet"
+    },
+    "-Mrxd8qSZXPosoJJDMtw" : {
+      "category" : "undefined",
+      "imageUrl" : "https://images.unsplash.com/photo-1581176780057-c6b5258ff5a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      "price" : 7,
+      "title" : "Mosaic Plant"
+    },
+    "-MrxdNsrHabezT-mJHMw" : {
+      "category" : "undefined",
+      "imageUrl" : "https://images.unsplash.com/photo-1615309363679-fed456ff8113?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=744&q=80",
+      "price" : 45,
+      "title" : "Areca"
+    },
+    "-MrxdtE9D6-c1LJKmyCk" : {
+      "category" : "undefined",
+      "imageUrl" : "https://images.unsplash.com/photo-1609862505388-ad12776003c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1748&q=80",
+      "price" : 78,
+      "title" : "White Pine"
+    },
+    "-Mrxe7-qOAjqJkMjZd4Y" : {
+      "category" : "undefined",
+      "imageUrl" : "https://images.unsplash.com/photo-1576557308158-ce2dae924293?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=770&q=80",
+      "price" : 87,
+      "title" : "New Year Tree"
+    }
+  },
+  "users" : {
+    "MXZNLtOsWncyiNo2tQSv5VTmv352" : {
+      "email" : "nikolina.uzelac.sun@gmail.com",
+      "isAdmin" : true,
+      "name" : "Nikolina Uzelac"
+    },
+    "vFCqUcnPD8UkqIAFst1KD1NCluK2" : {
+      "email" : "nikolina.uzelac.9.17@ict.edu.rs",
+      "name" : "Nikolina Uzelac Pivalica"
+    }
+  }
+}
